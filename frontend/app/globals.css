@@ -1,4 +1,79 @@
 :root {
+
+  --cl-primary: #2563EB;
+  --cl-primary-h: #1555E0;
+
+  --cl-background-d: #24211E;
+  --cl-foreground-d: #34312D;
+  --cl-outline-d: #14110F;
+
+  --cl-background-l: #C5D1EB;
+  --cl-foreground-l: #F3F3F4;
+  --cl-outline-l: #DCE2F0;
+
+  --cl-text-d: #24211E;
+  --cl-text-l: #C5D1EB;
+
+  --shadow-text: 1px 1px 1px var(--cl-text-d)
+  --shadow-card:  0px 6px 20px rgba(0, 0, 0, 0.10), 0px 2px 6px rgba(0, 0, 0, 0.06);
+
+  --padding-1: 4px;
+  --padding-2: 8px;
+  --padding-3: 12px;
+  --padding-4: 16px;
+  --padding-5: 20px;
+  --padding-6: 24px;
+  --padding-8: 32px;
+  --padding-10: 40px;
+  --padding-12: 48px;
+
+  --margin-1: 4px;
+  --margin-2: 8px;
+  --margin-3: 12px;
+  --margin-4: 16px;
+  --margin-5: 20px;
+  --margin-6: 24px;
+  --margin-8: 32px;
+  --margin-10: 40px;
+  --margin-12: 48px;
+
+  --gap-1: 4px;
+  --gap-2: 8px;
+  --gap-3: 12px;
+  --gap-4: 16px;
+  --gap-6: 24px;
+  --gap-8: 32px;
+
+  --radius-xxs: 2px;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-xxl: 24px;
+  --radius-full: 9999px;
+
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 22px;
+  --fs-xxl: 28px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-header: 50;
+  --z-modal: 100;
+  --z-toast: 200;
 }
 
 * {
