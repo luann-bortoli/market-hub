@@ -2,8 +2,8 @@
 
   --cl-primary: #2563EB;
   --cl-primary-h: #1555E0;
-  --cl-secundary: #DC2626;
-  --cl-secundary-h: #D32222;
+  --cl-secundary: #044A9F;
+  --cl-secundary-h: #04418B;
 
   --cl-background-d: #24211E;
   --cl-foreground-d: #34312D;
@@ -38,6 +38,7 @@
   --margin-8: 32px;
   --margin-10: 40px;
   --margin-12: 48px;
+  --margin-14: 60px;
 
   --gap-1: 4px;
   --gap-2: 8px;
