@@ -2,6 +2,8 @@
 
   --cl-primary: #2563EB;
   --cl-primary-h: #1555E0;
+  --cl-secundary: #DC2626;
+  --cl-secundary-h: #D32222;
 
   --cl-background-d: #24211E;
   --cl-foreground-d: #34312D;
@@ -12,7 +14,7 @@
   --cl-outline-l: #DCE2F0;
 
   --cl-text-d: #24211E;
-  --cl-text-l: #C5D1EB;
+  --cl-text-l: #F3F3F4;
 
   --shadow-text: 1px 1px 1px var(--cl-text-d)
   --shadow-card:  0px 6px 20px rgba(0, 0, 0, 0.10), 0px 2px 6px rgba(0, 0, 0, 0.06);
@@ -59,10 +61,12 @@
   --fs-lg: 18px;
   --fs-xl: 22px;
   --fs-xxl: 28px;
+  --fs-xxxl: 36px;
 
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semibold: 600;
+  --fw-bold: 800;
 
   --container-sm: 640px;
   --container-md: 768px;

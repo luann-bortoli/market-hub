@@ -1,0 +1,155 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 100%;
+
+    background-color: var(--cl-primary);
+
+    .contentWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100%;
+        width: var(--container-xl);
+
+        .startWrapper, .centerWrapper, .endWrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100%;
+        }
+
+        .startWrapper{
+            .logoWrapper{
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+
+                svg{
+                    height: 24px;
+                    padding: 0 var(--padding-2) 0 0;
+                }
+
+                .logoTitle{
+                    color: var(--cl-text-l);
+                    font-size: var(--fs-xxxl);
+                    font-weight: var(--fw-semibold);
+                    line-height: .6;
+                }
+            }
+        }
+
+        .centerWrapper{
+            flex: 1;
+            padding: var(--padding-8);
+
+            .searchWrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                height: 30px;
+                width: 100%;
+
+                border-radius: var(--radius-sm);
+                background-color: var(--cl-foreground-l);
+                overflow: hidden;
+                box-shadow: var(--shadow-card);
+
+                &:focus-within{
+                    outline: solid 1px var(--cl-primary-h);
+                }
+
+                .searchInput{
+                    height: 100%;
+                    flex: 1;
+
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    padding: 0 var(--padding-3)
+                }
+
+                .searchButton{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    height: 100%;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+
+                    svg{
+                        height: 20px;
+                        padding: 0 var(--padding-3);
+                        border-left: solid 1px var(--cl-background-l);
+                    }
+                    
+                }
+            }
+        }
+
+        .endWrapper{
+            a{
+                display: flex;
+                place-items: center;
+
+                svg{
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 100%;
+
+    background-color: var(--cl-secundary);
+
+    .navWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100%;
+        width: var(--container-xl);
+
+            .catWrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: var(--padding-1) var(--padding-3);
+            border-radius: var(--radius-md);
+
+            &:hover{
+                background-color: var(--cl-secundary-h);
+                cursor: pointer;
+            }
+
+            svg{
+                height: 20px;
+                padding: 0 var(--padding-1) 0 0;
+            }
+
+            .catTitle{
+                color: var(--cl-text-l);
+                font-size: var(--fs-md);
+                font-weight: var(--fw-medium);
+            }
+        }
+    }
+}
